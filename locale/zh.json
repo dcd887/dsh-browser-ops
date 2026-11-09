@@ -1,0 +1,6 @@
+{
+  "browser-ops": {
+    "title": "Browser Ops",
+    "description": "通过已有 Chrome/Edge 的 CDP 端口操作网页：读状态、找元素、点击、拖拽、执行 JS、截图。"
+  }
+}
