@@ -1,0 +1,6 @@
+{
+  "browser-ops": {
+    "title": "Browser Ops",
+    "description": "Drive an already-running Chrome/Edge page over CDP: read state, find elements, click, drag, eval, screenshot."
+  }
+}
