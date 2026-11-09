@@ -1,0 +1,7 @@
+- insert:
+    - id: browser-ops8
+      name: '@local/browser-ops8'
+      config:
+        port: 9222
+        urlIncludes: ''
+        screenshotDir: ''
