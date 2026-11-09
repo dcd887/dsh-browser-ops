@@ -1,0 +1,42 @@
+{
+  "name": "@local/browser-ops8",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Self-managed persistent browser for automation: launch/attach its own Chrome or Edge profile, navigate, switch tabs, snapshot with semantic refs, act by ref, eval, screenshot.",
+  "exports": {
+    ".": "./index.js",
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json"
+  },
+  "icon": "./icon.svg",
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "meta": {
+    "title": "Browser Ops",
+    "description": "Drive an already-running Chrome/Edge page through CDP: read state, find elements, click, drag, eval, screenshot."
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dcd887/dsh-browser-ops.git"
+  },
+  "homepage": "https://github.com/dcd887/dsh-browser-ops#readme",
+  "bugs": {
+    "url": "https://github.com/dcd887/dsh-browser-ops/issues"
+  },
+  "scripts": {
+    "test": "node test/smoke.mjs"
+  }
+}
