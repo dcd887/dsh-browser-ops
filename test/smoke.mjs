@@ -1,4 +1,4 @@
-﻿// test/smoke.mjs —— 不需要 DSH 运行时。验证：能被 import、导出结构正确、15 个工具名齐全、必需文件存在。
+// test/smoke.mjs —— 不需要 DSH 运行时。验证：能被 import、导出结构正确、15 个工具名齐全、必需文件存在。
 // 跑法：node test/smoke.mjs
 import { readFileSync } from 'node:fs';
 import { fileURLToPath, pathToFileURL } from 'node:url';
