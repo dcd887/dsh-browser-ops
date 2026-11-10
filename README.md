@@ -1,4 +1,4 @@
-﻿# Browser Ops 8（v8.2）—— 自带浏览器的通用操作插件
+# Browser Ops 8（v8.2）—— 自带浏览器的通用操作插件
 
 包名 `@local/browser-ops8`，源码 `DSH输出\_plugins\browser-ops8`，14 个 `web_*` 工具。
 
